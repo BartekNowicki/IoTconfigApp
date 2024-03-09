@@ -1,0 +1,11 @@
+package org.myCo;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class IoTDeviceConfigManagerTest {
+
+  @Test
+  public void contextLoads() {}
+}

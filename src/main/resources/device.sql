@@ -1,0 +1,17 @@
+INSERT INTO device (device_identifier,
+                    creation_date,
+                    modification_date,
+                    activation_date,
+                    deactivation_date,
+                    name,
+                    street,
+                    building_number,
+                    apartment_number,
+                    city,
+                    postal_code,
+                    country,
+                    zone_offset)
+VALUES ('Device001', NOW(), NOW(), NOW(), NULL, 'Address_One', 'Street_One', '1', '1', 'City_One', 'Postal_One',
+        'Country_One', '+01:00'),
+       ('Device002', NOW(), NOW(), NOW(), NULL, 'Address_Two', 'Street_Two', '2', '2', 'City_Two', 'Postal_Two',
+        'Country_Two', '+01:00');
